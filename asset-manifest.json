@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/KotBegemotEST/quiz/static/css/main.b342d25a.css",
+    "main.js": "/KotBegemotEST/quiz/static/js/main.c84de167.js",
+    "static/js/787.c9d5568a.chunk.js": "/KotBegemotEST/quiz/static/js/787.c9d5568a.chunk.js",
+    "index.html": "/KotBegemotEST/quiz/index.html",
+    "main.b342d25a.css.map": "/KotBegemotEST/quiz/static/css/main.b342d25a.css.map",
+    "main.c84de167.js.map": "/KotBegemotEST/quiz/static/js/main.c84de167.js.map",
+    "787.c9d5568a.chunk.js.map": "/KotBegemotEST/quiz/static/js/787.c9d5568a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b342d25a.css",
+    "static/js/main.c84de167.js"
+  ]
+}
