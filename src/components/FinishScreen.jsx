@@ -14,7 +14,7 @@ const FinishScreen = ({scoreValue,totalQuestions, onRestart}) => {
   return (
     <div class="quiz-finish" > 
     <h1 id="top"> 
-        Küsimustik
+        Finish
     </h1> 
     <h2> 
         Sinu tulemus {scoreValue}/{totalQuestions}
