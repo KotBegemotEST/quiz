@@ -1,38 +1,112 @@
-.App {
+* {
+  font-family: Roboto, Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url("../public/img/bg-pattern.png");
+}
+
+.button {
+  display: inline-block;
+  transition: .2s ease;
+  padding: 15px;
+  border: 2px solid #000;
+  background: #000;
+  color: #fff;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+button:hover {
+  text-decoration: none;
+  background: #fff;
+  color: #000;
+}
+
+.quiz{
+  margin: 50px auto 0 auto;
+  max-width: 400px;
+}
+
+.quiz-finish{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.score-container{
+  position: absolute;
+  right: 30px;
+  top: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.options-container{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.options-container>*{
+    margin-bottom: 15px;
+}
+
+
+.quiz-container {
+  border: 5px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 580px;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.quiz-start {
+  text-align: center;
+  position: relative;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.scoresHeader {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+li {
+  padding: 5px;
+  list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+  background-color: #dfdae7;
+}
+
+.button {
+  transition: background-color 0.5s ease;
+}
+
+.wrong-answer {
+  animation: wrongAnswerFlash 0.5s ease;
+  color: white; 
+}
+
+.button.correct-answer {
+  background-color: #4dc14d; 
+}
+
+@keyframes wrongAnswerFlash {
+  0%, 100% {
+    background-color: initial;
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    background-color: #ff5252; 
   }
 }
