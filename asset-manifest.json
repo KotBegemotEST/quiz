@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/KotBegemotEST/quiz/static/css/main.b342d25a.css",
-    "main.js": "/KotBegemotEST/quiz/static/js/main.c84de167.js",
-    "static/js/787.c9d5568a.chunk.js": "/KotBegemotEST/quiz/static/js/787.c9d5568a.chunk.js",
-    "index.html": "/KotBegemotEST/quiz/index.html",
-    "main.b342d25a.css.map": "/KotBegemotEST/quiz/static/css/main.b342d25a.css.map",
-    "main.c84de167.js.map": "/KotBegemotEST/quiz/static/js/main.c84de167.js.map",
-    "787.c9d5568a.chunk.js.map": "/KotBegemotEST/quiz/static/js/787.c9d5568a.chunk.js.map"
+    "main.css": "/quiz/static/css/main.b342d25a.css",
+    "main.js": "/quiz/static/js/main.3f2440d2.js",
+    "static/js/787.c9d5568a.chunk.js": "/quiz/static/js/787.c9d5568a.chunk.js",
+    "index.html": "/quiz/index.html",
+    "main.b342d25a.css.map": "/quiz/static/css/main.b342d25a.css.map",
+    "main.3f2440d2.js.map": "/quiz/static/js/main.3f2440d2.js.map",
+    "787.c9d5568a.chunk.js.map": "/quiz/static/js/787.c9d5568a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b342d25a.css",
-    "static/js/main.c84de167.js"
+    "static/js/main.3f2440d2.js"
   ]
 }
